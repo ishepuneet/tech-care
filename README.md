@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SecureTech Premium — Vite + React
 
 A responsive premium landing page inspired by the supplied security-services reference, expanded to include CCTV/security installation, laptop repair, computer repair, and tech accessories.
@@ -31,3 +32,6 @@ npm run preview
 ## Notes
 - The 3D camera is a lightweight procedural Three.js model, not a static image. Drag to rotate; it auto-rotates on desktop.
 - Unsplash images and Google Fonts require an internet connection.
+=======
+# tech-care
+>>>>>>> f13be705930a8aa997a3b0712d2866a27c603efe
