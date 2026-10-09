@@ -27,10 +27,10 @@ function SectionIntro({ eyebrow, title, copy, light = false }) {
 function App() {
   return <div className="min-h-screen overflow-hidden bg-white text-ink">
     <div className="topline"><div className="site-container flex items-center justify-between"><span>Technology, made dependable.</span><div className="flex gap-5"><span><Clock3 size={13} /> Mon–Sat · 7:30 AM–7 PM</span><span><MapPin size={13} /> Your local tech partner</span></div></div></div>
-    <header className="site-container navbar">
+    {/* <header className="site-container navbar">
       <a href="#home" className="brand"><span className="brand-mark"><ShieldCheck size={23} /></span><span>secure<span className="brand-accent">tech</span><small>SECURITY · REPAIR · ACCESSORIES</small></span></a>
       <nav className="hidden md:flex items-center gap-8">
-        {/* <a href="#home">Home</a> */}
+        <a href="#home">Home</a>
         <a href="#services">Services <ChevronDown size={13} /></a>
         <a href="#products">Products</a>
         <a href="#about">About</a>
@@ -38,7 +38,7 @@ function App() {
       </nav>
       <a className="nav-cta" href="#contact">Let's talk <ArrowUpRight size={16} /></a>
       <button aria-label="Open menu" className="md:hidden rounded-full border p-2"><Menu size={20} /></button>
-    </header>
+    </header> */}
 
     <main>
       <section id="home" className="hero">
